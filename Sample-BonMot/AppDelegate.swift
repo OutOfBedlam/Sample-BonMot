@@ -65,7 +65,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       .font(BONFont(name: "AvenirNext-Bold", size: 14)!))
 
     let bigger = baseStyle.byAdding(
-      .font(BONFont(name: "AvenirNext-Heavy", size: 64)!))
+      .font(BONFont(name: "AvenirNext-Heavy", size: 48)!))
 
     compositeExample.attributedStringValue = NSAttributedString.composed(of: [
       "You’re going to need a\n".styled(with: preamble),
