@@ -1,0 +1,3 @@
+[submodule "BonMot"]
+	path = BonMot
+	url = https://github.com/Raizlabs/BonMot.git
