@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C64B9EA9A3BEA430AD7CDBDF42D26FA1C5903E15",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C64B9EA9A3BEA430AD7CDBDF42D26FA1C5903E15" : 9223372036854775807,
+    "0C561BE986D488113CBA52DAA6FDE78C660EE21A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0EE5B298-3180-49F7-BC08-947094029698",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C64B9EA9A3BEA430AD7CDBDF42D26FA1C5903E15" : "Sample-BonMot\/",
+    "0C561BE986D488113CBA52DAA6FDE78C660EE21A" : "Sample-BonMot\/BonMot\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sample-BonMot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample-BonMot.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Raizlabs\/BonMot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C561BE986D488113CBA52DAA6FDE78C660EE21A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:OutOfBedlam\/Sample-BonMot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C64B9EA9A3BEA430AD7CDBDF42D26FA1C5903E15"
+    }
+  ]
+}

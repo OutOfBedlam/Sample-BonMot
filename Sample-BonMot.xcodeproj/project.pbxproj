@@ -7,12 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461AB0A71DE29B300021D0B8 /* BonMot.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46DD9BF11DE29AB200E76221 /* BonMot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		46D2A1B31DD58BA10086DD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A1B21DD58BA10086DD33 /* AppDelegate.swift */; };
 		46D2A1B51DD58BA10086DD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D2A1B41DD58BA10086DD33 /* Assets.xcassets */; };
 		46D2A1B81DD58BA10086DD33 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D2A1B61DD58BA10086DD33 /* MainMenu.xib */; };
-		46D2A1C11DD58C3D0086DD33 /* BonMot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D2A1C01DD58C3D0086DD33 /* BonMot.framework */; };
-		46D2A1C31DD58CAD0086DD33 /* BonMot.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D2A1C01DD58C3D0086DD33 /* BonMot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46DD9BE61DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABC7774B1DC29F3000815FB9;
+			remoteInfo = "Example-iOS";
+		};
+		46DD9BE81DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCBFD571D96E61000FAD37A;
+			remoteInfo = "BonMot-iOS";
+		};
+		46DD9BEA1DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCBFD5F1D96E61100FAD37A;
+			remoteInfo = "BonMot-iOSTests";
+		};
+		46DD9BEC1DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCD3DEC1D96F6A500273936;
+			remoteInfo = "BonMot-tvOS";
+		};
+		46DD9BEE1DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCD3E051D96F6E200273936;
+			remoteInfo = "BonMot-tvOSTests";
+		};
+		46DD9BF01DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCD3E251D980E4900273936;
+			remoteInfo = "BonMot-OSX";
+		};
+		46DD9BF21DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCD3E3E1D980E5500273936;
+			remoteInfo = "BonMot-OSXTests";
+		};
+		46DD9BF41DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA75DEA1D99E10400B64705;
+			remoteInfo = "BonMot-watchOS";
+		};
+		46DD9BF61DE29AB200E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA75E031D99E10F00B64705;
+			remoteInfo = "BonMot-watchOSTests";
+		};
+		46DD9BF81DE29ACD00E76221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCD3E071D980E4900273936;
+			remoteInfo = "BonMot-OSX";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		46D2A1C21DD58CA00086DD33 /* CopyFiles */ = {
@@ -21,7 +93,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				46D2A1C31DD58CAD0086DD33 /* BonMot.framework in CopyFiles */,
+				461AB0A71DE29B300021D0B8 /* BonMot.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,7 +105,7 @@
 		46D2A1B41DD58BA10086DD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D2A1B71DD58BA10086DD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		46D2A1B91DD58BA10086DD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46D2A1C01DD58C3D0086DD33 /* BonMot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonMot.framework; sourceTree = "<group>"; };
+		46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BonMot.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D2A1C11DD58C3D0086DD33 /* BonMot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +122,7 @@
 		46D2A1A61DD58BA10086DD33 = {
 			isa = PBXGroup;
 			children = (
-				46D2A1BF1DD58BDA0086DD33 /* Frameworks */,
+				46DD9BD81DE29A9F00E76221 /* BonMot */,
 				46D2A1B11DD58BA10086DD33 /* Sample-BonMot */,
 				46D2A1B01DD58BA10086DD33 /* Products */,
 			);
@@ -76,13 +147,28 @@
 			path = "Sample-BonMot";
 			sourceTree = "<group>";
 		};
-		46D2A1BF1DD58BDA0086DD33 /* Frameworks */ = {
+		46DD9BD81DE29A9F00E76221 /* BonMot */ = {
 			isa = PBXGroup;
 			children = (
-				46D2A1C01DD58C3D0086DD33 /* BonMot.framework */,
+				46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */,
 			);
-			name = Frameworks;
-			path = "Sample-BonMot/Frameworks";
+			path = BonMot;
+			sourceTree = "<group>";
+		};
+		46DD9BDA1DE29AB200E76221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46DD9BE71DE29AB200E76221 /* Example-iOS.app */,
+				46DD9BE91DE29AB200E76221 /* BonMot.framework */,
+				46DD9BEB1DE29AB200E76221 /* BonMot-iOSTests.xctest */,
+				46DD9BED1DE29AB200E76221 /* BonMot.framework */,
+				46DD9BEF1DE29AB200E76221 /* BonMot-tvOSTests.xctest */,
+				46DD9BF11DE29AB200E76221 /* BonMot.framework */,
+				46DD9BF31DE29AB200E76221 /* BonMot-OSXTests.xctest */,
+				46DD9BF51DE29AB200E76221 /* BonMot.framework */,
+				46DD9BF71DE29AB200E76221 /* BonMot-watchOSTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +186,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				46DD9BF91DE29ACD00E76221 /* PBXTargetDependency */,
 			);
 			name = "Sample-BonMot";
 			productName = "Sample-BonMot";
@@ -133,12 +220,84 @@
 			mainGroup = 46D2A1A61DD58BA10086DD33;
 			productRefGroup = 46D2A1B01DD58BA10086DD33 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46DD9BDA1DE29AB200E76221 /* Products */;
+					ProjectRef = 46DD9BD91DE29AB200E76221 /* BonMot.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				46D2A1AE1DD58BA10086DD33 /* Sample-BonMot */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46DD9BE71DE29AB200E76221 /* Example-iOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Example-iOS.app";
+			remoteRef = 46DD9BE61DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BE91DE29AB200E76221 /* BonMot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BonMot.framework;
+			remoteRef = 46DD9BE81DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BEB1DE29AB200E76221 /* BonMot-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "BonMot-iOSTests.xctest";
+			remoteRef = 46DD9BEA1DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BED1DE29AB200E76221 /* BonMot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BonMot.framework;
+			remoteRef = 46DD9BEC1DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BEF1DE29AB200E76221 /* BonMot-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "BonMot-tvOSTests.xctest";
+			remoteRef = 46DD9BEE1DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BF11DE29AB200E76221 /* BonMot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BonMot.framework;
+			remoteRef = 46DD9BF01DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BF31DE29AB200E76221 /* BonMot-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "BonMot-OSXTests.xctest";
+			remoteRef = 46DD9BF21DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BF51DE29AB200E76221 /* BonMot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BonMot.framework;
+			remoteRef = 46DD9BF41DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46DD9BF71DE29AB200E76221 /* BonMot-watchOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "BonMot-watchOSTests.xctest";
+			remoteRef = 46DD9BF61DE29AB200E76221 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		46D2A1AD1DD58BA10086DD33 /* Resources */ = {
@@ -162,6 +321,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46DD9BF91DE29ACD00E76221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BonMot-OSX";
+			targetProxy = 46DD9BF81DE29ACD00E76221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		46D2A1B61DD58BA10086DD33 /* MainMenu.xib */ = {
